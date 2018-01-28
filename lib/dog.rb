@@ -10,4 +10,4 @@ class Dog
 end
 
 fido = Dog.new
-fido.instance_variable_get(:@name) #=> "Fido"
+fido.instance_variable_get(:"@#{Fido}") #=> "Fido"
