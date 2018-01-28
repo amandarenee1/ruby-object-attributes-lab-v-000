@@ -1,4 +1,4 @@
-
+#Create class Dog that reads and writes name.
 class Dog
 
   def name=(name)
