@@ -8,7 +8,7 @@ class Dog
   def name
     "Fido"
   end
-
+#Create class that reads and writes dog breed.
 
   def breed=(breed)
     @breed = breed
@@ -23,8 +23,6 @@ fido = Dog.new
 fido.name = "Fido"
 
 puts fido.name
-
-#Create class that reads and writes dog breed.
 
 snoopy = Dog.new
 snoopy.breed = "Beagle"
